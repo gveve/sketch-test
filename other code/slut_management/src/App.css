@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.9em;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 10px;
+}
+
+.App-subtitle {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Sweat {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .Sweat{
+        display: block;
+    }
+
+    .App-title{
+      font-size: 1.5em;
+      text-align: center;
+      padding-top: 40px;
+      letter-spacing: 2px;
+    }
+  }
+
+.Sweat-pic {
+    flex: 30%;
+    padding: 5px;
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Futura'), local('FUTRFW'),
+       url('./fonts/FUTRFW.woff') format('woff'), /* Modern Browsers */
+}
+body {
+  font-family: 'Futura';
+}
